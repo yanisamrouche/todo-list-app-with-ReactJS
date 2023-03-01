@@ -10,7 +10,8 @@
     "test": "jest --watch",
     "dev": "webpack --mode development",
     "watch": "webpack --mode development --watch",
-    "serve": "live-server --entry-file=./index.html"
+    "serve": "live-server --entry-file=./index.html",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
